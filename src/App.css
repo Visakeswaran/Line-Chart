@@ -20,3 +20,34 @@
 .App-link {
   color: #09d3ac;
 }
+
+.graph-container {
+  background: #fff;
+  width: 1168px;
+  height: 439px;
+  margin: 10% auto;
+  border-radius: 7px;
+  box-shadow: 1px 10px 10px #bcbcbc63;
+}
+
+/* CHART STYLES */
+
+.sentiment-x-axis > path,
+.sentiment-y-axis > path {
+  display: none;
+}
+
+.sentiment-y-axis > g > text,
+.sentiment-x-axis > g > text {
+  font-size: 14px;
+  fill-opacity: 0.55;
+}
+
+.sentiment-x-axis > g > line {
+  display: none;
+}
+
+.sentiment-y-axis > g > line {
+  stroke-opacity: 0.07;
+  stroke-dasharray: 5 5;
+}
